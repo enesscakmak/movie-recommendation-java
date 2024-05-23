@@ -11,6 +11,8 @@ import javafx.stage.Stage;
 
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
+import org.apache.commons.lang3.StringUtils;
+
 import java.io.IOException;
 import java.net.URL;
 import java.util.*;
@@ -137,7 +139,7 @@ public class Mainpage implements Initializable {
         MovieRecommender.loadRatingsFromCSV("src/main/dataset/merged_movies_small.csv");
         MainController.topRatedMovies=MovieRecommender.getTopRatedMovies(100);
         MainController.movieTitles2 = MovieRecommender.movieTitles;
-        User.setText(MainController.UserNAME);
+        User.setText(MainController.UserNAME.toUpperCase());
         // Add user movierates to user-item matrix
         MovieRecommender.userItemMatrix.put(MainController.UserID, new HashMap<>());
         for (int i = 0; i < MainController.ratedMovies.size(); i++) {
@@ -193,16 +195,16 @@ public class Mainpage implements Initializable {
 
         }
         else {
-            Movie1.setText("No Recommendation");
-            Movie2.setText("No Recommendation");
-            Movie3.setText("No Recommendation");
-            Movie4.setText("No Recommendation");
-            Movie5.setText("No Recommendation");
-            Movie6.setText("No Recommendation");
-            Movie7.setText("No Recommendation");
-            Movie8.setText("No Recommendation");
-            Movie9.setText("No Recommendation");
-            Movie10.setText("No Recommendation");
+            Movie1.setText("No Recommendation Yet");
+            Movie2.setText("No Recommendation Yet");
+            Movie3.setText("No Recommendation Yet");
+            Movie4.setText("No Recommendation Yet");
+            Movie5.setText("No Recommendation Yet");
+            Movie6.setText("No Recommendation Yet");
+            Movie7.setText("No Recommendation Yet");
+            Movie8.setText("No Recommendation Yet");
+            Movie9.setText("No Recommendation Yet");
+            Movie10.setText("No Recommendation Yet");
 
         }
 
