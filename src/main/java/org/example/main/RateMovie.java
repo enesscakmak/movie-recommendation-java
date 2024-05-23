@@ -160,11 +160,11 @@ public class RateMovie extends MovieRecommender implements Initializable {
         });
         star1.setOnMouseExited(e -> {
 
-            star1.setStyle("-fx-border-color: #000000");
-            star2.setStyle("-fx-border-color: #000000");
-            star3.setStyle("-fx-border-color: #000000");
-            star4.setStyle("-fx-border-color: #000000");
-            star5.setStyle("-fx-border-color: #000000");
+            star1.setStyle("-fx-border-color: #ffffff");
+            star2.setStyle("-fx-border-color: #ffffff");
+            star3.setStyle("-fx-border-color: #ffffff");
+            star4.setStyle("-fx-border-color: #ffffff");
+            star5.setStyle("-fx-border-color: #ffffff");
         });
         star2.setOnMouseEntered(e -> {
             star1.setStyle("-fx-background-color: gold");
@@ -173,11 +173,11 @@ public class RateMovie extends MovieRecommender implements Initializable {
         });
         star2.setOnMouseExited(e -> {
 
-            star1.setStyle("-fx-border-color: #000000");
-            star2.setStyle("-fx-border-color: #000000");
-            star3.setStyle("-fx-border-color: #000000");
-            star4.setStyle("-fx-border-color: #000000");
-            star5.setStyle("-fx-border-color: #000000");
+            star1.setStyle("-fx-border-color: #ffffff");
+            star2.setStyle("-fx-border-color: #ffffff");
+            star3.setStyle("-fx-border-color: #ffffff");
+            star4.setStyle("-fx-border-color: #ffffff");
+            star5.setStyle("-fx-border-color: #ffffff");
         });
         star3.setOnMouseEntered(e -> {
             star1.setStyle("-fx-background-color: gold");
@@ -187,11 +187,11 @@ public class RateMovie extends MovieRecommender implements Initializable {
         });
         star3.setOnMouseExited(e -> {
 
-            star1.setStyle("-fx-border-color: #000000");
-            star2.setStyle("-fx-border-color: #000000");
-            star3.setStyle("-fx-border-color: #000000");
-            star4.setStyle("-fx-border-color: #000000");
-            star5.setStyle("-fx-border-color: #000000");
+            star1.setStyle("-fx-border-color: #ffffff");
+            star2.setStyle("-fx-border-color: #ffffff");
+            star3.setStyle("-fx-border-color: #ffffff");
+            star4.setStyle("-fx-border-color: #ffffff");
+            star5.setStyle("-fx-border-color: #ffffff");
         });
         star4.setOnMouseEntered(e -> {
             star1.setStyle("-fx-background-color: gold");
@@ -202,11 +202,11 @@ public class RateMovie extends MovieRecommender implements Initializable {
         });
         star4.setOnMouseExited(e -> {
 
-            star1.setStyle("-fx-border-color: #000000");
-            star2.setStyle("-fx-border-color: #000000");
-            star3.setStyle("-fx-border-color: #000000");
-            star4.setStyle("-fx-border-color: #000000");
-            star5.setStyle("-fx-border-color: #000000");
+            star1.setStyle("-fx-border-color: #ffffff");
+            star2.setStyle("-fx-border-color: #ffffff");
+            star3.setStyle("-fx-border-color: #ffffff");
+            star4.setStyle("-fx-border-color: #ffffff");
+            star5.setStyle("-fx-border-color: #ffffff");
         });
         star5.setOnMouseEntered(e -> {
             star1.setStyle("-fx-background-color: gold");
@@ -218,11 +218,11 @@ public class RateMovie extends MovieRecommender implements Initializable {
         });
         star5.setOnMouseExited(e -> {
 
-            star1.setStyle("-fx-border-color: #000000");
-            star2.setStyle("-fx-border-color: #000000");
-            star3.setStyle("-fx-border-color: #000000");
-            star4.setStyle("-fx-border-color: #000000");
-            star5.setStyle("-fx-border-color: #000000");
+            star1.setStyle("-fx-border-color: #ffffff");
+            star2.setStyle("-fx-border-color: #ffffff");
+            star3.setStyle("-fx-border-color: #ffffff");
+            star4.setStyle("-fx-border-color: #ffffff");
+            star5.setStyle("-fx-border-color: #ffffff");
 
         });
 
