@@ -28,7 +28,12 @@ Movie recommendation app using users ratings. Dataset from MovieLens used to com
 - Press "Rate" button and rate the movies you watched until you are satisfied.  
 - You can press the name of the movie to see the IMDb page.
 - When you are done rating, press the "Refresh" button to see your 10 recommended movies.  
-- Press any of the names for seeing the IMDb page.  
+- Press any of the names for seeing the IMDb page.
+
+### 
+  Cosine similarity is used for the recommendation algorithm.  
+  JSON is used to storing user information.  
+  FXML and SceneBuilder used for the frontend.  
   
 Dataset for education and development from MovieLens  
 [MovieLens Dataset](https://grouplens.org/datasets/movielens/)
